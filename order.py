@@ -114,8 +114,7 @@ def take_order():
                             print("Invalid / Unavailable spice level! Please choose a valid spice level.")
 
             else:
-                spice = None  # No spice level for beverages or other categoriess
- # No spice level for beverages or other categories
+                spice = None  
   # Beverages don't have spice levels
 
             cart.append({
